@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import BoC from "./pages/BoC";
+import BaC from "./pages/BaC/BaC";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<BoC />} />
+        <Route path="/" element={<BaC />} />
       </Routes>
     </BrowserRouter>
   );
